@@ -33,9 +33,9 @@ TagManager:
   - 
   - 
   - 
+  - Wall
   - 
-  - 
-  - 
+  - Spike
   - Post
   m_SortingLayers:
   - name: BackgroundUI
