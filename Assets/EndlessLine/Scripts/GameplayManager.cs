@@ -1,10 +1,7 @@
-﻿using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 namespace EndlessLine
 {
-    using UnityEngine;
-
-
     public class GameplayManager : MonoBehaviour
     {
         public static GameplayManager Instance { get; private set; }
@@ -83,7 +80,8 @@ namespace EndlessLine
                     OnWin?.Invoke();
                     break;
                 case GameState.GAMEOVER:
-                    StartCoroutine(Utilities.WaitAfter(1.0f, () =>
+                    Time.timeScale = 0.0f;
+                    StartCoroutine(Utilities.WaitAfterRealtime(1.0f, () =>
                     {
                         uiManager.CloseAll();
                         uiManager.DisplayGameoverMenu(true);

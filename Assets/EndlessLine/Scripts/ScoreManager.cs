@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+
 namespace EndlessLine
 {
     public class ScoreManager : MonoBehaviour

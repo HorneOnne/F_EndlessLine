@@ -35,9 +35,9 @@ namespace EndlessLine
 
         private void Update()
         {
-            if (GameplayManager.Instance.currentState != GameplayManager.GameState.PLAYING) return;
             transform.Translate(Vector2.left * spikeGenerator.currentSpeed * Time.deltaTime, Space.World);
         }
+
 
         public float GetMoveDistance()
         {

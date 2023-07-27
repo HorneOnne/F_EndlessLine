@@ -9,4 +9,6 @@ EditorBuildSettings:
     path: Assets/EndlessLine/Scenes/GameplayScene.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: eefa3fcfb067f5d4cb87005a216e37f9, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 28e60bc0afd0c994b917f5e5fbd24efb, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: c0ef154189f18be4facd1c39ec2b800e, type: 2}

@@ -206,7 +206,6 @@ namespace EndlessLine
 
         public void MuteSoundFX(bool mute)
         {
-            Debug.Log(oneShotAudioSource == null);
             oneShotAudioSource.mute = mute;
         }
 
